@@ -1,4 +1,3 @@
-import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -7,7 +6,7 @@ export default function Index() {
       <Text className="text-5xl font-bold text-dark-100">
         Welcome to Nativewind!
       </Text>
-      <Link href='/Onboarding'>Onboarding page</Link>
+     
     </View>
   );
 }
