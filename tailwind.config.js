@@ -22,3 +22,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+// npx tailwindcss init   using this command we xan genrate this file
