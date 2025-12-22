@@ -3,9 +3,11 @@ import { Text, View } from 'react-native'
 
 const profile = () => {
   return (
-    <View>
-      <Text>profile</Text>
-    </View>
+      <View className="flex-1 items-center justify-center">
+      <Text className="text-5xl font-bold text-dark-100">
+        Welcome to Profile Screen!
+      </Text>
+      </View>
   )
 }
 
