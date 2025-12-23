@@ -26,6 +26,8 @@ const  TabIcon =({ focused, icon, title }: any) =>{
     </View>
   );
 }
+
+
 const TabsLayout = () => {
   return (
     <Tabs
