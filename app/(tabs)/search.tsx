@@ -1,3 +1,4 @@
+import SearchBar from '@/components/Searchbar'
 import React from 'react'
 import { Text, View } from 'react-native'
 
@@ -7,6 +8,7 @@ const search = () => {
        <Text className="text-5xl font-bold text-dark-100">
          Welcome to Searcg screen!
        </Text>
+       <SearchBar placeholder='welcome'/>
        </View>
    )
 }
