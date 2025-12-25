@@ -1,4 +1,5 @@
 // declearing the interface types
+
 interface Movie {
   id: number;
   title: string;
