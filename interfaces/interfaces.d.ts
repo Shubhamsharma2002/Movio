@@ -1,5 +1,6 @@
 // declearing the interface types
 
+
 interface Movie {
   id: number;
   title: string;
@@ -17,6 +18,7 @@ interface Movie {
   vote_count: number;
 }
 
+
 interface TrendingMovie {
   searchTerm: string;
   movie_id: number;
@@ -24,6 +26,7 @@ interface TrendingMovie {
   count: number;
   poster_url: string;
 }
+
 
 interface MovieDetails {
   adult: boolean;
