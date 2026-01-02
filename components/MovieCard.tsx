@@ -26,6 +26,7 @@ const MovieCard = ({
           {title}
         </Text>
 
+
         <View className="flex-row items-center justify-start gap-x-1">
           <Image source={icons.star} className="size-4" />
           <Text className="text-xs text-white font-bold uppercase">
