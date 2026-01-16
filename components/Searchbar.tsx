@@ -9,7 +9,7 @@ interface Props {
   onChangeText?: (text: string) => void;
   onPress?: () => void;
 }
-
+// searchbar
 const SearchBar = ({ placeholder, value, onChangeText, onPress }: Props) => {
   return (
     <View className="flex-row items-center bg-dark-200 rounded-full px-5 py-4">
