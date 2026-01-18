@@ -31,7 +31,6 @@ const MovieCard = ({
             {Math.round(vote_average / 2)}
           </Text>
         </View>
-
         <View className="flex-row items-center justify-between">
           <Text className="text-xs text-light-300 font-medium mt-1">
             {release_date?.split("-")[0]}
