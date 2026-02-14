@@ -1,16 +1,15 @@
-
 import { icons } from "@/constants/icons";
-import { images } from '@/constants/images';
-import { Tabs } from 'expo-router';
-import React from 'react';
+import { images } from "@/constants/images";
+import { Tabs } from "expo-router";
+import React from "react";
 import { Image, ImageBackground, Text, View } from "react-native";
 //  tab icon function
-const  TabIcon =({ focused, icon, title }: any) =>{
+const TabIcon = ({ focused, icon, title }: any) => {
   if (focused) {
     return (
       <ImageBackground
         source={images.highlight}
-        className="flex flex-row w-full flex-1 min-w-[112px] min-h-10 mt-5 justify-center items-center rounded-full overflow-hidden"
+        className="flex flex-row w-full flex-1 min-w-[112px] min-h-14 mt-3 justify-center items-center rounded-full overflow-hidden"
       >
         <Image source={icon} tintColor="#151312" className="size-5" />
         <Text className="text-secondary text-base font-semibold ml-2">
@@ -24,7 +23,7 @@ const  TabIcon =({ focused, icon, title }: any) =>{
       <Image source={icon} tintColor="#A8B5DB" className="size-5" />
     </View>
   );
-}
+};
 const TabsLayout = () => {
   return (
     <Tabs
@@ -94,8 +93,8 @@ const TabsLayout = () => {
       />
     </Tabs>
   );
-}
+};
 
-export default TabsLayout
+export default TabsLayout;
 
 // const styles = StyleSheet.create({})
