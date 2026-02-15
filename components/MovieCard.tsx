@@ -3,6 +3,7 @@ import { Link } from "expo-router";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 
 // MOVIE CARD
+
 const MovieCard = ({
   id,
   poster_path,
