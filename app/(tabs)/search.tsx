@@ -1,16 +1,21 @@
 // import SearchBar from '@/components/Searchbar'
+import MovieCard from "@/components/MovieCard";
+import { images } from "@/constants/images";
 import React from "react";
-import { Text, View } from "react-native";
-
-
+import { FlatList, Image, View } from "react-native";
 
 const search = () => {
   return (
-    <View className="flex-1 items-center justify-center">
-      <Text className="text-5xl font-bold text-dark-100">
-        Welcome to Searcg screen!
-      </Text>
-      {/* <SearchBar placeholder='welcome'/> */}
+    <View className="flex-1 bg-primary items-center justify-center">
+      <Image
+        source={images.bg}
+        className="flex-1 absolute w-full z-0"
+        resizeMode="cover"
+      />
+      <FlatList
+        data={movies}
+        renderItem={({ item }) => <MovieCard {...item} />}
+      />
     </View>
   );
 };
