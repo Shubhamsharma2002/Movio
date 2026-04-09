@@ -4,6 +4,8 @@ import { images } from "@/constants/images";
 import React from "react";
 import { FlatList, Image, View } from "react-native";
 
+
+
 const search = () => {
   return (
     <View className="flex-1 bg-primary items-center justify-center">
@@ -14,7 +16,9 @@ const search = () => {
       />
       <FlatList
         data={movies}
-        renderItem={({ item }) => <MovieCard {...item} />}
+        renderItem={({ item }) => <MovieCard {...item
+          
+        } />}
       />
     </View>
   );
